@@ -222,3 +222,38 @@ section div h2 {
     margin-top: auto;
     font-size: 16px;
 }
+.tesmonial-section{
+    display: flex; /* Aligns the two divs horizontally */
+    gap: 20px; /* Adds space between the image and text */
+    align-items: center; /* Vertically aligns the content */
+    padding: 20px; /* Adds padding around the section */
+    background-color: #c271ff; /* Light background color for the section */
+    height: 400px;
+}
+.tesmonial-section img{
+    position: relative;
+    margin-top: 180px;
+    left: 250px;
+}
+.tesmonial-section blockquote{
+    margin-top: 170px;
+    margin-left: 280px;
+    text-align: center;
+    white-space: pre-wrap;
+}
+.tesmonial-section h3{
+    margin-top: 0;
+    margin-left: 300px;
+    font-size: 22px;
+    font-family: sans-serif;;
+}
+.tesmonial-section p{
+    margin-left: 300px;
+    margin-top: -20px;
+    font-style: italic;
+    line-height: 33.6px;
+    text-indent: 0;
+    white-space: normal;
+    display: block;
+}
+
