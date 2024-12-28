@@ -256,4 +256,91 @@ section div h2 {
     white-space: normal;
     display: block;
 }
+.video-section {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 1200px;
+}
+.video-section h2 {
+    font-size: 2rem;
+    color: #333 /* Purple */
+    margin-bottom: 20px;
+}
+.diagonal, .video, .video2, .video3 {
+    display: inline-block;
+    width: 22%;
+    margin: 1%;
+    background-color: #fff;
+    
+    overflow: hidden;
+    text-align: left;
+    vertical-align: top;
+    position: relative;
+}
+.diagonal img, .video img, .video2 img, .video3 img {
+    width: 100%;
+    height: auto;
+    
+}
+.play-button1, .play-button2, .play-button {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 64px !important; /* Reduced size with higher priority */
+    height: 64px !important; /* Reduced size with higher priority */
+    
+    cursor: pointer !important;
+    transition: all 0.3s ease-in-out !important;
+}
 
+.diagonal h3, .video h3, .video2 h3, .video3 h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 15px;
+}
+.para, .para5, .lorem, .lorem3 {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 0 15px 10px;
+    line-height: 1.5;
+}
+.author, .author2, .author3, .author4 {
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
+.author img, .author2 img, .author3 img, .author4 img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.author h4, .author2 h4, .author3 h4, .author4 h4 {
+    font-size: 0.9rem;
+    color: #6d28d9;
+}
+.star, .star-container {
+    display: flex;
+    gap: 5px;
+    margin: 10px 15px;
+}
+.star i, .star-container i {
+    color: #fbbf24; /* Yellow for stars */
+    font-size: 1rem;
+}
+.diagonal p, .video p, .video2 p, .video3 p {
+    font-size: 0.8rem;
+    color: #888;
+    margin: 10px 15px 15px;
+}
+.popular{
+    color:#c271ff; 
+    font-weight: 300; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    font-family: sans-serif;
+    font-size: 32px;
+}
