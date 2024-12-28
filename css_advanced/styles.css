@@ -392,3 +392,56 @@ section div h2 {
    
     
 }
+.faq {
+    max-width: 900px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+  }
+  .faq h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  .faq > div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px 40px;
+    justify-content: space-between;
+  }
+  .faq > div > div {
+    flex: 1 1 calc(50% - 20px); /* Two-column layout */
+    margin-bottom: 20px;
+  }
+.faq .question1, 
+.faq .question2, 
+.faq .question3, 
+.faq .question4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.faq .question1 + div,
+.faq .question2 + div,
+.faq .question3 + div,
+.faq .question4 + div {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #555;
+  background-color: #fff;
+  padding: 15px 20px;
+  text-align: left;
+  margin-bottom: 70px;
+}
+@media (max-width: 768px) {
+    .faq > div {
+      flex-direction: column;
+    }
+  
+    .faq > div > div {
+      flex: 1 1 100%;
+    }
+  }
